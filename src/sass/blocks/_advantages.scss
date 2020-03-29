@@ -1,0 +1,62 @@
+.advantages {
+    min-height: 1250px;
+    
+    .title {
+        margin-top: 80px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 700;
+        color: #393939;
+    }
+    &__skills {
+        margin-top: 45px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        &_item {
+            display: flex;
+            width: 570px;
+            height: 355px;
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+            .descr {
+                margin-top: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 570px;
+                height: 156px;
+                background: rgba(0, 0, 0, 0.43);
+                .text {
+                    text-align: center;
+                    font-size: 23px;
+                    line-height: 26px;
+                    font-weight: 400;
+                    color: #ffffff;   
+                }
+            }
+            &_1 {
+                background-image: url('..//img/opportunities/opportunities1.png');
+            }
+            &_2 {
+                background-image: url('..//img/opportunities/opportunities2.png');
+            }
+            &_3 {
+                background-image: url('..//img/opportunities/opportunities3.png');
+            }
+            &_4 {
+                background-image: url('..//img/opportunities/opportunities4.png');
+            }
+            &_5 {
+                background-image: url('..//img/opportunities/opportunities5.png');
+            }
+            &_6 {
+                background-image: url('..//img/opportunities/opportunitie6.png');
+            }
+        }
+
+    }
+}

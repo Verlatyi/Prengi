@@ -1,0 +1,130 @@
+.expert_carousel {
+    min-height: 889px;
+    margin-top: 30px;
+    padding: 75px 0 60px 0;
+    background: url(..//img/carousel2/main_img_slide2.png) center (center / cover) no-repeat;
+    position: relative;
+    .title {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .slick_slider{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        max-width: 990px;
+        margin-top: 50px;
+        padding: 0;
+        .carousel_second{
+            margin-top: 25px;
+            padding: 0;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 900px;
+        }
+        .controls {
+            display: block;
+            margin: 0 auto;
+            max-width: 950px;
+            height: 70px;
+            border: 1.0px solid #ffffff;
+            .controls-dots {
+                display: flex;
+                justify-content: center;
+            }
+        }   
+        .slick-dots {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            li{
+                list-style: none;
+            }
+        }
+        .slick-dots button {
+            font-size: 0;
+            height: 65px;
+            width: 150px;
+            background-color: transparent;
+            border: none;
+        }
+        .slick-dots li[class="slick-active"]:nth-child(1) button { 
+            background: url('..//img/carousel2/act1.png')0 0 / 100% no-repeat;
+        }
+        .slick-dots li[class="slick-active"]:nth-child(2) button { 
+            background: url('..//img/carousel2/act2.png')0 0 / 100% no-repeat;
+        }
+        .slick-dots li[class="slick-active"]:nth-child(3) button { 
+            background: url('..//img/carousel2/act3.png')0 0 / 100% no-repeat;
+        }
+        .slick-dots li[class="slick-active"]:nth-child(4) button { 
+            background: url('..//img/carousel2/act4.png')0 0 / 100% no-repeat;
+        }
+        .slick-dots li[class="slick-active"]:nth-child(5) button { 
+            background: url('..//img/carousel2/act5.png')0 0 / 100% no-repeat;
+        }
+        .slick-dots li[class="slick-active"]:nth-child(6) button { 
+            background: url('..//img/carousel2/act6.png')0 0 / 100% no-repeat;
+        }
+        .slick-dots li:nth-child(1) button {
+            background: url('..//img/carousel2/pass1.png')0 0 / 100% no-repeat;
+            &:hover {
+                background: url('..//img/carousel2/act1.png')0 0 / 100% no-repeat;
+               }
+        }
+        .slick-dots li:nth-child(2) button {
+            background: url('..//img/carousel2/pass2.png')0 0 / 100% no-repeat;
+            &:hover {
+                background: url('..//img/carousel2/act2.png')0 0 / 100% no-repeat;
+               }
+        }
+        .slick-dots li:nth-child(3) button {
+            background: url('..//img/carousel2/pass3.png')0 0 / 100% no-repeat;
+            &:hover {
+                background: url('..//img/carousel2/act3.png')0 0 / 100% no-repeat;
+               }
+        }
+        .slick-dots li:nth-child(4) button {
+            background: url('..//img/carousel2/pass4.png')0 0 / 100% no-repeat;
+            &:hover {
+                background: url('..//img/carousel2/act4.png')0 0 / 100% no-repeat;
+               }
+        }
+        .slick-dots li:nth-child(5) button {
+            background: url('..//img/carousel2/pass5.png')0 0 / 100% no-repeat;
+            &:hover {
+                background: url('..//img/carousel2/act5.png')0 0 / 100% no-repeat;
+               }
+        }
+        .slick-dots li:nth-child(6) button {
+            background: url('..//img/carousel2/pass6.png')0 0 / 100% no-repeat;
+            &:hover {
+                background: url('..//img/carousel2/act6.png')0 0 / 100% no-repeat;
+               }
+        }
+
+        .slick-arrow{
+            border: none;
+            font-size: 0;
+            position: absolute;
+            top: 50%;
+            height: 60px;
+            width: 18px;
+            z-index: 1;
+            cursor: pointer;
+        }
+        .slick-prev {
+            left: -30px;
+            background: url('../img/carousel2/arrow_prev.png')0 0 / 100% no-repeat;
+        }
+        .slick-next {
+            right: -40px;
+            background: url('../img/carousel2/arrow_next.png')0 0 / 100% no-repeat;
+        }
+    }
+}

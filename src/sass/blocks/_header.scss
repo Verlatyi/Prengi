@@ -1,0 +1,41 @@
+header {
+    position: relative;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    padding: 39px 0;
+    .container {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        .logo {
+            display: block;
+            max-width: 100%;
+        }
+        display: flex;
+        justify-content: space-between;
+        nav {
+            width: 600px;
+            display: flex;
+            .menu {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                &_link {
+                    padding: 0 0 0 45px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: white;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+            .hamburger {
+                display: none;
+            }
+        }   
+    }
+}

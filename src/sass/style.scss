@@ -1,0 +1,26 @@
+@import 'libs/fonts';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/slick';
+
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+@import 'base/variables';
+@import 'base/media';
+
+@import 'blocks/general';
+@import 'blocks/country';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/withprengi';
+@import 'blocks/expert_carousel';
+@import 'blocks/advantages';
+@import 'blocks/server';
+@import 'blocks/touch';
+@import 'blocks/footer';
+@import 'blocks/media';
+@import 'blocks/forms';

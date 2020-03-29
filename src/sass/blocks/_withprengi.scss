@@ -1,0 +1,62 @@
+.withprengi {
+    min-height: 900px;
+    .card {
+        margin: 50px 10px 0 10px;
+        width: 360px;
+        height: 255px;
+        img {
+            display: block;
+            margin: 0 auto;
+            height: 185px;
+            width: 191px;
+        }
+        .text {
+            text-align: center;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+            color: #393939;
+        }
+    }
+    .wrapper_ask {
+        max-width: 1176px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        &__card {
+            background-image: url('..//img/withprengi/bg_asked.png') ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    }
+    .with_block {
+        display: block;
+        height: 140px;
+        width: 280px;
+        margin: 0 auto;
+        margin-top: 30px;
+        transform: translateX(20%);
+        &__title {
+            margin-top: 30px;
+            text-align:left;
+            font-size: 48px;
+            line-height: 30px;
+            font-weight: 700;
+            color: #393939;
+            transform: translateX(-10%);
+        }
+    }
+    .wrapper_ok {
+        max-width: 1176px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        &__card_ok {
+            background-image: url('..//img/withprengi/bg_okey.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    }
+}

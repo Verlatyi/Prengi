@@ -1,0 +1,80 @@
+
+.promo {
+    min-height: 700px;
+    background: url(..//img/header/main_head_slide.png) center (center / cover) no-repeat;
+    padding: 240px 0 0px 0;
+    .slick {
+        position: relative;
+        .carousel {    
+            display: flex;
+            width: 700px;
+            height: 350px;
+            /* z-index: 5; */
+            }
+        .info {
+            .title_slide, .subtitle_slide {
+                font-size: 42px;
+                line-height: 48px;
+                font-weight: 700;
+                color: #ffffff;
+            }
+            .descr {
+                margin-top: 27px;
+                font-size: 24px;
+                line-height: 30px;
+                font-weight: 299;
+                color: #ffffff;
+            }
+        }
+        .controls {
+            display: flex;
+            justify-content:flex-end;
+            width: 700px;
+            position: relative;
+        }
+        .controls-arrows,
+        .controls-dots {
+            
+            /* text-align: center; */
+            position: relative;
+            display: inline-block;
+            /* vertical-align: middle; */
+        }
+        .slick-dots {
+            margin-top: 15px;
+            display: flex;
+            position: relative;
+            bottom: auto;
+            margin: 0 10px 0 0;
+            padding: 0;
+            li{
+                list-style: none;
+                margin: 0 2px;
+            }
+        }
+        .slick-dots button {
+   
+            font-size: 0;
+            height: 15px;
+            background-color: transparent;
+            border: 1.0px solid #ffffff;
+            border-radius: 50%;
+        }
+        .slick-dots li[class="slick-active"] button { 
+            background-color: #fff;
+        }
+        .slick-arrow{
+            font-size: 0;
+            width: 10px;
+            height: 20px;
+            border: none;
+        }
+        .slick-prev {
+            background: url('../icons/slide/prev_error.svg')0 0 / 100% no-repeat;
+            transform: translateX(-50%); 
+        }
+        .slick-next {
+            background: url('../icons/slide/next_arrow.svg')0 0 / 100% no-repeat;
+        }
+    }
+}
